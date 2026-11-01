@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/yt-audio", "destination": "/api/cnvmp3" },
+    { "source": "/api/audio", "destination": "/api/cnvmp3" },
+    { "source": "/api/stream", "destination": "/api/cnvmp3" },
+    { "source": "/api/cnvmp3", "destination": "/api/cnvmp3" },
+    { "source": "/api/download", "destination": "/api/proxy-audio" },
+    { "source": "/api/proxy-audio", "destination": "/api/proxy-audio" },
+    { "source": "/api/cover-proxy", "destination": "/api/cover-proxy" },
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

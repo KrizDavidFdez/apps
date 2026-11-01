@@ -1,0 +1,8 @@
+{
+  "name": "AI Lyrics Sync Player",
+  "description": "An Apple Music style audio player that uses Gemini AI to automatically transcribe and synchronize lyrics with uploaded audio files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
